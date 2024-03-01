@@ -105,7 +105,7 @@ int main(int argc, const char * argv[]) {
          while(head) {
             tmp=head;
             head=head->next;
-            // printf("%3d", tmp->value);
+            printf("%3d", tmp->value);
             free(tmp);
          }
          printf("\n");
